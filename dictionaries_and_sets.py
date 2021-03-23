@@ -56,7 +56,8 @@ car_parts.discard("seats")
 print(car_parts)
 
 # Frozen sets
-# These prevent the sets from being modified.
+# These convert data collections into an immutable set.
+# As with sets, they are unordered.
 car_parts = frozenset(car_parts)
 print(car_parts)
 

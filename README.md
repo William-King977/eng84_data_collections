@@ -141,7 +141,16 @@ print(car_parts) # outputs {'doors', 'wheels', 'windows'}
 
 Frozen sets
 ```python
-# Frozen sets cannot be modified.
+# Frozen sets cannot be modified (become immutable sets).
+# As with sets, they are unordered.
 car_parts = frozenset(car_parts)
 car_parts.add("engine") # this will fail
+
+# Can be applied on the other data collections
+# List
+frozen_set_list = frozenset([1, 2, 3])
+
+# Dictionary
+my_dict = {"name": "Will", "age": 18, "course": "DevOps"}
+frozen_set_dict = frozenset(my_dict)
 ```
