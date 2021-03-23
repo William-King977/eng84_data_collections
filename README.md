@@ -1,11 +1,11 @@
 # Data Collections in Python
-### Types of collections
+## Types of collections
 * Lists 
 * Tuples
 * Dictionaries
 * Sets
 
-### Lists
+## Lists
 Lists are used to store multiple items in a single variable. 
 They are mutable meaning that they can be changed after it has 
 been created.
@@ -51,7 +51,7 @@ mixed_list = [1, 2, 3, "one", "two", "three"]
 print(mixed_list[1:3]) # outputs [2, 3]
 ```
 
-### Tuples
+## Tuples
 Tuples are used to store multiple items in a single variable. 
 However, they are immutable meaning that they cannot be changed 
 after it has been created.
@@ -63,7 +63,7 @@ print(essential) # outputs ('medicine', 'tooth paste', 'tea bags')
 essential[0] = "cereal" # this will fail
 ```
 
-### Dictionaries
+## Dictionaries
 Dictionaries are used to store data values in key:value pairs.
 The value can be retrieved by using the key. It's dynamic with
 its data types, and they are mutable. However, it does not allow 
@@ -114,7 +114,7 @@ dev_ops_student.pop("name") # removes the key:pair using the key
 del dev_ops_student["name"] # does the same
 ```
 
-### Sets
+## Sets
 Sets are used to store multiple values in the same variable.
 They are mutable, so it can be modified. However, its contents
 are always in a randomised order when they are created or 
