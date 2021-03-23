@@ -38,7 +38,7 @@ print(dev_ops_student.values())
 
 #### SETS ####
 # Syntax {}
-# Mutable
+# Mutable, but only for addition and deletion
 # Unordered data (not in the order of initialisation)
 # NOTE: randomised everytime it is modified.
 
@@ -53,6 +53,7 @@ print(car_parts)
 
 # Remove items
 car_parts.discard("seats")
+print(car_parts)
 
 # Frozen sets
 # These prevent the sets from being modified.

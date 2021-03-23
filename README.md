@@ -116,9 +116,10 @@ del dev_ops_student["name"] # does the same
 
 ## Sets
 Sets are used to store multiple values in the same variable.
-They are mutable, so it can be modified. However, its contents
-are always in a randomised order when they are created or 
-modified.
+They are mutable, but only for addition and deletion. However, 
+its contents are unordered (randomised order during creation
+and modification) and unindexed. They do not allow
+duplicate values.
 
 Creating a set
 ```python
